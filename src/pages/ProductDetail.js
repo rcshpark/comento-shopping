@@ -28,17 +28,6 @@ const ProductDetail = () => {
    </div>
     )
 };
-
-const ThemeLine = styled.div`
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    left: -5px;
-    top: 63px;
-
-    background: #EEEEEE;
-`;
-
 const ProductSection = styled.div`
 margin-top: 60px;
 `;
