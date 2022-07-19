@@ -20,7 +20,7 @@ const Home = () => {
         <ProductSection>
         <ProductCard 
         name='비숑 블랙 머그잔' 
-        description='쌀쌀한 날씨에 따뜻한 우유, 커피 한잔하기 좋은 블랙 & 화이트 비숑 머그잔입니다.' 
+        description={'쌀쌀한 날씨에 따뜻한 우유, 커피 한잔하기 좋은\n 블랙 & 화이트 비숑 머그잔입니다.'} 
         thumbnail='https://raw.githubusercontent.com/congchu/coment-shop-server/master/assets/images/product1.jpg'/>
 
         <ProductCard 
