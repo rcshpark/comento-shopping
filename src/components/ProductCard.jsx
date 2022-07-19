@@ -43,6 +43,8 @@ right: 10.82%;
 top: 86.82%;
 bottom: -1.01%;
 
+white-space: pre-line;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 21px;
