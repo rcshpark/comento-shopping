@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-const ProductCard = ({name, description, thumbnail}) => {
+const ProductCard = ({name, description, thumbnail,onClick}) => {
     return (
-    <CardLine>
+        <CardLine onClick={onClick}>
         <img
          width="341"
          height="204"
