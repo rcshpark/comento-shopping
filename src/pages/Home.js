@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navigation from '../components/Navigation';
-import ThemeButton from '../components/ThemeButton';
+import ThemeButton from "../components/ThemeButton";
 import ProductCard from '../components/ProductCard';
 import styled from 'styled-components';
 import { mockTheme1Produdcts,mockTheme2Produdcts } from '../data/mockData';
 
 const Home = () => {
+
+    const[products, setProducts] =  useState();
+
+    const onClickThemeButton = (themeId) => {
+        if (themeId === 1) {
+            setProducts(mockTheme1Produdcts);
+          } else {
+            setProducts(mockTheme2Produdcts);
+          }
+        };
+    
     return ( 
     <div>
       <div>
